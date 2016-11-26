@@ -1,0 +1,208 @@
+*{
+	margin:0;
+	padding:0;
+}
+body,html{
+	width:100%;
+	height:100%;
+	background:#fff;
+	color:#666;
+	font-size:16px ;
+	font-family: "微软雅黑";
+}
+
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#333;
+}
+header{
+	width:100%;
+	height:2rem;
+	background:#ff6247;
+	position:fixed;
+	top:0;
+	z-index: 100;
+}
+#content{
+	min-height:180px;
+	margin-top:32px;
+	margin-bottom:45px;
+}
+
+.scerve>div{
+	width:20%;
+	float:left;
+	text-align: center;
+	font-size:0.75rem;	
+	padding:10px 0;
+}
+.scerve i{
+	display:block;
+	width:100%;
+	height:40px;
+	background:url(../img/NavIcon.png) no-repeat center -85px ;
+	background-size:40px;
+}
+.tools i{
+	background: url(../img/ToolsIcon.png) no-repeat center -175px;
+}
+.swiper-num{
+	bottom:-20px;
+	text-align: center;
+}
+#topLine{
+	height:50px;	
+}
+#topLine div{
+	float:left;
+}
+#prompt{
+	height:50px;
+	overflow:hidden;
+	position:relative;		
+}
+#topList{
+	position:absolute;
+	top:0;
+	left:0;
+}
+#topList li{
+	height:25px;
+	list-style-type: disc;
+	list-style-position: inside;
+	font-size:0.75rem;
+	text-indent: 0.75rem;
+}
+#topLog{
+	width:20%;
+	height:50px;
+	background:url(../img/toplist.jpg) no-repeat center;
+	background-size: 50px;
+}
+#gratefau{
+	height:240px;
+}
+.wbtitle{
+	height:36px;
+	padding:0 5%;
+	border-top:8px solid #f3f3f3;
+	display: flex;
+	align-items: center;
+}
+.grate{
+	padding: 10px 0;
+	background:url(../img/wb.jpg) no-repeat center;	
+	background-size:220px 30px ;
+}
+.gratefauDetail{
+	float:left;
+	width:25%;
+	text-align: center;
+	
+}
+.gratefauDetail dt{
+	height:40px;
+	font-size: 1rem;
+	color:#333;
+}
+.gratefauDetail dt span{
+	font-size: 0.75rem;
+	color:#b1b1b1;
+}
+.gratefauDetail dd{
+	height:60px;
+	background: url(../img/wb2.jpg) no-repeat center;
+	background-size: 60px;
+}
+.gratefauDetail .wb-3{
+	background-image: url(../img/wb3.jpg);
+}
+#spree{
+	width:50%;
+	background:url(../img/wb1.jpg) no-repeat right center;
+	background-size: 100px;
+}
+#spree dt{
+	text-align: left;
+	padding-left:5%;
+	color:#ea323c;
+}
+#spree dd{
+	background-image: none;
+}
+
+#domestic{
+	height:150px;	
+}
+
+.wbtitle span{
+	float:right;
+	font-size:0.62rem;
+	
+}
+#likeHouse{
+	height:24px;
+	padding-left:5%;
+	color:#aaa;
+}
+.likeList{
+	padding:5%;
+	height:60px;
+	border-bottom:1px solid #f3f3f3;
+}
+.likeList dt,.likeList dd{
+	float: left;
+	height:70px;
+}
+.likeList dt{
+	width:33.33%;	
+}
+.likeList dt img{
+	height:100%;	
+}
+.likeList dd{
+	width:66.67%;
+}
+.likeList p{
+	height:40px;
+	color:#333;
+}
+.likeList .housr-message{
+	height:20px;
+	color:#ff6247;
+}
+.housr-message span{
+	color:#ccc;
+	font-size:0.75rem;
+	float:right;
+}
+#more{
+	height:32px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer{
+	width:100%;
+	height:45px;		
+	position:fixed;
+	bottom:0;
+	display:flex;
+	background:#fff;
+	color:#7e7d7d;
+	text-align: center;
+	z-index: 100;
+}
+footer div{
+	flex: 1;
+}
+
+footer div img{
+	width:20px;
+	font-size: 0.75rem;
+}
+
